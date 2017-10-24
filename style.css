@@ -5,8 +5,6 @@ body {
 
 .logo {
   float: left;
-  width: 25px;
-  height: 25px;
   
 }
 /* ~~ Top Navigation Bar ~~ */
@@ -25,6 +23,8 @@ body {
 }
 .navigation-bar img{
 float:left;
+  width: 25px;
+  height: 25px;
 }
 .navigation-bar ul {
   padding: 0px;
