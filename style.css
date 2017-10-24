@@ -5,6 +5,8 @@ body {
 
 .logo {
   float: left;
+  width: 25px;
+  height: 25px;
   
 }
 /* ~~ Top Navigation Bar ~~ */
