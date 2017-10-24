@@ -62,7 +62,8 @@ body {
   float: right;
 }
 
-.backgroundimage {
-  width: 100%;
-  padding: 0px;
+.endracism {
+  font-family: serif;
+  font-size: 36px;
+  text-align: center;
 }
