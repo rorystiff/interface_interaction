@@ -57,5 +57,6 @@ body {
 
 .backgroundimage {
   width: 100%;
+  max-width: 1500px;
   padding: 0px;
 }
