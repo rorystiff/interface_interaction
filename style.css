@@ -65,5 +65,9 @@ body {
 .endracism {
   font-family: serif;
   font-size: 36px;
+  font-weight: bold;
   text-align: center;
+  letter-spacing: 20px;
+  color: #ffffff;
+  position: absolute;
 }
