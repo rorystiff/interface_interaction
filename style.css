@@ -1,10 +1,56 @@
-h1 {
-    font-family: sans-serif;
-    font-size: 20px
-    color: #12472;
+body {
+  margin: 0;
+  padding: 0;
 }
-p{
-    font-family: monospace;
-    font-size: 10px
-    color: #19623
+
+.logo {
+  float: left;
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 100%;
+  margin: 0 auto;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #ffffff;
+  height: 70px;
+  width: 100%;
+  text-align:right;
+}
+.navigation-bar img{
+float:left;
+}
+.navigation-bar ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.navigation-bar li {
+  list-style-type: none;
+  padding: 0px;
+  height: 24px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  display: inline;
+}
+
+.navigation-bar li a {
+  color: black;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+
+#menu {
+  float: right;
 }
