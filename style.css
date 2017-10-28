@@ -1,4 +1,4 @@
-.bgimage {
+#background {
   margin: 0;
   padding: 0;
   background-image: url(./images/Background_pexel.jpeg);
@@ -31,7 +31,8 @@
 .navigation-bar img{
   float:left;
   height: 100%;
-   position: sticky;
+  position: relative;
+  padding-left: 10px;
 }
 .navigation-bar ul {
   padding: 0px;
@@ -61,7 +62,7 @@
   line-height: 70px;
   padding: 5px 15px;
   opacity: 0.7;
-   position: sticky;
+  position: sticky;
 }
 
 #menu {
@@ -76,5 +77,48 @@
   text-align: center;
   letter-spacing: 10px;
   color: #ffffff;
-  padding: 500px;
+  position: relative;
+  padding-top: 500px;
+  text-align: center;
 }
+.downloads {
+    padding-top: 10%;
+    margin-left: 15%;
+    
+}
+#safari {
+    max-width: 20%;
+    height: auto;
+}
+#chrome {
+    max-width: 20%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#firefox {
+    max-width: 20%;
+    height: auto;
+    text-align: center;    
+}
+
+.about {
+    padding-top: 10%;
+    margin-left: 15%;
+}
+#facebook {
+    max-width: 20%;
+    height: auto;
+}
+#twitter {
+    max-width: 20%;
+    height: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#instagram {
+    max-width: 20%;
+    height: auto;
+    text-align: center;    
+}
+
