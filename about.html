@@ -6,8 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <title>Home Page</title>
+  <title>About</title>
+  <script src="js/scrollreveal.min.js"></script>
+    <script>
+      window.sr = ScrollReveal();
+    </script>
 </head>
+    <body>
 <div class="navigation-bar">
 
 
@@ -22,12 +27,18 @@
         <li><a href="./download.html">Downloads</a></li>
       </ul>
     </div>
+    <div class="about_type">
+        <p>Enra was created in 2017 as a tool for combating racism online. By downloading and using this plugin you will be able to actively fight against racism online. The plugin will automatically crawl the web and hide any offensive messages,comments,posts etc you come across just like how an adblocker works. </p>
+     </div>
     <div class="about">
     <img id ="facebook" src="./images/facebook_logo.png" alt="facebook Icon">
     <img id ="twitter" src="./images/twitter.png" alt="twitter Icon">
     <img id ="instagram" src="./images/Instagram_logo.png" alt="instagram Icon">
     </div>
     
-    </div>
+    </div>    
+    <script>
+      sr.reveal('.about', { container: '.about' });
+    </script>
     
-    
+</body>

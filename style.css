@@ -1,4 +1,4 @@
-#background {
+.background {
   margin: 0;
   padding: 0;
   background-image: url(./images/Background_pexel.jpeg);
@@ -6,8 +6,25 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  min-height: 100%; 
 }
 
+#information {
+    height:110vh;
+    background-color:white;
+    padding-top:30vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-family: 'PT Serif', serif;
+    font-size: 4vw;
+    text-align: center;
+}
+
+#icon_home{
+    padding-top: 10vh;
+    height: auto;
+    width: 25vw;
+}
 
 
 .logo{
@@ -48,10 +65,21 @@
   margin-top: 4px;
   margin-bottom: 4px;
   display: inline;
+    
 }
 
 .navigation-bar li a {
   color: black;
+  font-size: 16px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 70px;
+  padding: 5px 15px;
+  opacity: 0.7;
+}
+.navigation-bar li a:hover {
+  color: white;
   font-size: 16px;
   font-family: Helvetica, sans-serif;
   font-weight: bold;
@@ -66,20 +94,21 @@
 }
 
 .endracism {
-  font-family: serif;
-  font-size: 36px;
-  font-weight: bold;
+  min-height: 100vh;
+  font-family: 'Playfair Display';
+  font-size: 52px;
   text-align: center;
-  letter-spacing: 10px;
+  letter-spacing: 5px;
   color: #ffffff;
   position: relative;
-  padding-top: 500px;
+  padding-top: 50vh;
   text-align: center;
 }
+
 .downloads {
     padding-top: 10%;
     margin-left: 15%;
-    
+    height:250px;   
 }
 #safari {
     max-width: 20%;
@@ -100,6 +129,7 @@
 .about {
     padding-top: 10%;
     margin-left: 15%;
+    height:250px; 
 }
 #facebook {
     max-width: 20%;
@@ -117,3 +147,36 @@
     text-align: center;    
 }
 
+#downloadpage {
+    padding-top: 5vh;
+    display: block;''
+    height: auto;
+    width: 35vw;
+    vertical-align: middle;
+    margin: auto;
+}
+#thankyou{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    line-height: 1vh;
+    font-size: 4vw;
+}
+#shortly{
+        text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1vh;
+    font-size: 2vw;
+}
+
+.about_type{
+    padding-top: 25vh;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    height: 100vh;
+    text-align: left;
+    font-family: 'PT Serif', serif;
+    font-weight: 300;
+    font-size: 3vw;
+}
