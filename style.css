@@ -171,6 +171,14 @@
     line-height: 1vh;
     font-size: 2vw;
 }
+#click{
+        text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 4vh;
+    font-size: 1.5vw;
+}
+
 
 .about_type{
     padding-top: -5vh;
