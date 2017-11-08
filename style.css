@@ -220,7 +220,7 @@
     font-size: 2vw;   
     display: table;
     width: 100%;
-    line-height: 5.5vh;
+    line-height: 7vh;
 }
 
 
@@ -230,12 +230,6 @@
     padding: 5vw;
 }
 
-@media only screen and (max-width: 600px) {
-    .update1 { 
-        display: block;
-        width: 100%;
-    }
-}
 
 h2{
     text-align: left;
